@@ -56,19 +56,21 @@ The application provides the following features:
 
 ## 6. Project Structure
 
-```text
-ML ASSIGNMENT 2/
+credit-card-default-prediction/
 │
 ├── app.py
 ├── CODE.ipynb
-├── requirements.txt
 ├── README.md
+├── requirements.txt
 ├── test_data.csv
 ├── model_metrics.csv
 ├── model_ranking.csv
 │
-└── model/
-    ├── [saved model files]
+├── logistic_regression.joblib
+├── decision_tree.joblib
+├── knn.joblib
+├── gaussian_nb.joblib
+└── svm.joblib
 ```
 
 ## 7. How to Run the Application
